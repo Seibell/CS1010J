@@ -1,0 +1,10 @@
+Enter the number of rows: Enter data: 
+Sorted by age, then by salary:
+117	35	5000	
+115	60	6000	
+114	60	10000	
+118	60	30000	
+Employees with the most common age:
+115	60	6000	
+114	60	10000	
+118	60	30000	

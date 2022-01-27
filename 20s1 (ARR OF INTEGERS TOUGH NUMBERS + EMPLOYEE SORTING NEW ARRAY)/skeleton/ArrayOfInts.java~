@@ -1,0 +1,71 @@
+/*
+ * CS1010J AY2020/21 Semester 1
+ * Practical Assessment Ex1: ArrayOfInts.java
+ * 
+ * Your student number: A
+ * 
+ * Write a short and meaningful program description below:
+ * 
+ * 
+ * 
+ */
+
+import java.util.*;
+
+class ArrayOfInts {
+  
+  // Main method is given. Do NOT modify it!
+  public static void main(String[] args) {
+    
+    Scanner input = new Scanner(System.in);
+    System.out.print("Enter the size of array: ");
+    int size = input.nextInt();
+    
+    int[] arr = new int[size];
+    System.out.print("Enter the array: ");
+    for (int i = 0; i < size; i++) {
+      arr[i] = input.nextInt();
+    }
+    
+    System.out.println("Maximum difference = " + maxDiff(arr));
+    
+    System.out.println("Number of tough numbers = " + countToughNum(arr));
+    
+    System.out.print("Enter t: ");
+    int t = input.nextInt();
+    System.out.println("Number of smiling numbers = " + countSmilingNum(arr, t));
+    
+    input.close();
+  }
+  
+  /**********************************************************
+    *            Write your code below this line            *
+    *********************************************************/
+  
+  // <Write a short description of the method here>
+  public static int maxDiff(int[] arr) {
+    
+    return 0; // stub
+  }
+  
+  
+  // <Write a short description of the method here>
+  public static boolean isToughNum(int num) {
+    
+    return false; // stub
+  }
+  
+  
+  // <Write a short description of the method here>
+  public static int countToughNum(int[] arr) {
+    
+    return 0; // stub
+  }
+  
+  
+  // <Write a short description of the method here>
+  public static int countSmilingNum(int[] arr, int t) {
+    
+    return 0; // stub
+  }
+}
